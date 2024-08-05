@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B692C2;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:#4F1787;
+    font-family: "Merriweather Sans", sans-serif;
+}
+.scoreBox{
+    height:120px;
+    width:300px;
+    display: flex;
+    gap:5px;
+    margin-bottom: 30px;
+}
+.playerBox{
+    height:100px;
+    width:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px #E1AFD1 solid;
+    border-radius: 20px;
+    padding:5px;
+}
+.title{
+    font-size: 15px;
+    color:#4F1787;
+}
+.score{
+    text-align: center;
+    font-size:50px;
+    height:70px;
+    width:100px;
+    padding-top: 10px;
+    color:#8616f6;
+}
+.icons{
+    height:165px;
+    width:165px;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+    cursor:pointer;
+}
+#rock{
+    background-image: url("./rock.png");
+    background-size: cover;
+}
+#paper{
+    background-image: url("./paper.png");
+    background-size: cover;
+}
+#scissors{
+    background-image: url("./scissors.png");
+    background-size: cover;
+}
+#decisionBox{
+    padding:10px;
+    margin:25px;
+    border-radius: 20px;
+    background-color: #4F1787;
+    color:#FFDFD6;
+    font-family: "Hedvig Letters Serif", serif;
+}
+button{
+    height:30px;
+    width:100px;
+    background-color: #E1AFD1;
+    color:#4F1787;
+    border: none;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px #4F1787;
+    font-family: "Hedvig Letters Serif", serif;
+}
+.pressed{
+    box-shadow: 0 0 30px #4F1787;
+}
